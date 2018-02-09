@@ -1,0 +1,40 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# testing
+**/coverage/
+
+# production
+**/dist/
+
+# misc
+.DS_Store
+.env
+**/npm-debug.log
+.vscode
+**/npm-debug.log.*
+
+#IDE
+**/.idea/
+**/.vscode/
+
+logs/
+**/scripts/env-local.sh
+**/scripts/env-internal.sh
+**/scripts/env-oc-internal.sh
+
+# Binaries for programs and plugins
+**/*.exe
+**/*.exe~
+**/*.dll
+**/*.so
+**/*.dylib
+**/pkg
+
+# Test binary, build with `go test -c`
+**/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+**/*.out
